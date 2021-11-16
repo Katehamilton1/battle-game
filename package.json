@@ -1,15 +1,19 @@
 {
-  "name": "battle-game",
+  "name": "rpg",
   "version": "1.0.0",
   "description": "battle-game",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "battle-game"
   },
   "author": "kate",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "inquire": "^7.0.3",
+    "jest": "^27.3.1"
+  }
 }
